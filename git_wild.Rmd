@@ -35,12 +35,17 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+ggplot(data = diamonds, aes(x = carat, y = depth)) +
+  geom_line(aes(colour = "blue")) +
+  theme_minimal() +
+  labs(title = "New graph who this")
 diamonds2 <- diamonds %>% 
   select(cut)
 
 diamonds3 <- diamonds %>% 
   select(carat)
 # etc etc changes :)
+
 
 ```
 

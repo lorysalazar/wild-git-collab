@@ -53,6 +53,10 @@ diamonds3 <- diamonds %>%
 ggplot(data = diamonds, aes(x = depth, y = table)) +
   geom_point(color = "red") +
   theme_bw()
+
+ggplot(data = diamonds, aes(x = depth, y = carat, color = cut)) +
+  geom_point() +
+  labs(title = "Gross")
 ```
 
 ## END Discussion 3

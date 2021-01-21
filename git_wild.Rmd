@@ -40,7 +40,7 @@ diamonds2 <- diamonds %>%
 
 diamonds3 <- diamonds %>% 
   select(carat)
-# etc etc :)
+# etc etc changes :)
 
 ```
 
